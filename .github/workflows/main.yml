@@ -20,8 +20,6 @@ jobs:
       - name: 7zip
         run: sudo apt-get install p7zip-full
 
-
-
       - name: Build project
         run: dotnet build --configuration Debug
 
